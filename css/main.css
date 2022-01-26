@@ -146,4 +146,9 @@ header nav .close {
 header .menu {
   width: 2.5em;
 }
+
+.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
 /*# sourceMappingURL=main.css.map */
