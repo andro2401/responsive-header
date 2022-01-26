@@ -151,4 +151,39 @@ header .menu {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
+
+/*RESPONSIVE*/
+@media screen and (min-width: 765px) {
+  header nav {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: unset;
+    width: auto;
+    height: auto;
+    display: block;
+    background: none;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+  }
+  header nav li a {
+    padding: 0;
+    margin-right: 1em;
+  }
+  header nav li a:hover {
+    text-decoration: underline;
+  }
+  header nav .close {
+    display: none;
+  }
+  header .menu {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */
